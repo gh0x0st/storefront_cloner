@@ -1,4 +1,4 @@
-# Leveraging your Citrix Storefront for security awareness
+# Cloning your Citrix Storefront for security awareness
 One of the most important chains in your security link is going to be your end users. The reason for this is we can't control the actions of others, regardless of the number of security controls you implement, short of removing all internet access. To help make that link stronger, we'll develop a social engineering exercise to test the ability for our employees to detect clones of a common logon page they use. In this case, a Citrix Storefront portal.
 
 ## Citrix Storefront
