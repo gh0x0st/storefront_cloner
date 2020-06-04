@@ -80,9 +80,10 @@ To keep this simple, we are going to use a custom php page and designate our for
 Now that we have a better understanding of what we're trying to accomplish, let's fire up our Kali machine and get to work.
 
 1. Clone your target StoreFront Portal
-2. Create your post.php file
-3. Create log file for post.php and assign permissions
-4. Start Apache and test
+2. Create our post.php file
+3. Identify the username/password field names
+4. Create log file for post.php and assign proper permissions
+5. Start Apache and test
 
 ### Clone your target StoreFront Portal
 I wrote a simple python script called 'storefront-cl.py' to facilitate the cloning and cleaning process, that works as of the date of posting this. It takes in two parameters, the target url and the designated path to your custom php file. Once you run the script, it will:
