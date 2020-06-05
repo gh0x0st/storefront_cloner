@@ -67,7 +67,9 @@ page.open(address, function(status) {
 ### Internal vs External
 When you're cloning a Storefront page, you need to be cognizant of are you cloning the `public` page or `private` page as the source code is different. This is important to keep in mind as a clone generated from the private network may not display properly if you present it from the internet and vice-versa. 
 
-Keep in mind our goal is not necessarily functionality; we want a visual copy with a working form. Make a few changes and your page locally until you get the page to display without any errors. With the script referenced in this commit, it's been coded to *clone public facing sites*.
+Keep in mind our goal is not necessarily functionality; we want a visual copy with a working form. Make a few changes and your page locally until you get the page to display without any errors. For example on the functionality, the public facing clone will produce errors if you do not omit the 'rdx.js' javascript from being called.
+
+With the script referenced in this commit, it's been coded to *clone public facing sites*.
 
 ### Form method post actions
 To keep this simple, we are going to use a custom php page and designate our form method action to point to the root-relative link of this page, since we're hosting this on our attacker machine. I included a very quick and simple php page in this repository. What this file will do is when a post is submitted, it's send the data to our php page, from which it'll append a log with the username, password, ip and user agent to a log file. 
