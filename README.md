@@ -1,6 +1,12 @@
 # Cloning your Citrix Storefront for security awareness
 One of the most important chains in your security link is going to be your end users. The reason for this is we can't control the actions of others, regardless of the number of security controls you implement, short of removing all internet access. To help make that link stronger, we'll develop a social engineering exercise to test the ability for our employees to detect clones of a common logon page they use. In this case, a Citrix Storefront portal.
 
+## Disclaimer
+
+This repository and the data provided has been created purely for the purposes of academic research and for the development of effective security techniques and is not intended to be used to attack systems except where explicitly authorized. It is your responsibility to obey all applicable local, state and federal laws. 
+
+Project maintainers assume no liability and are not responsible for any misuse or damage caused by the data therein.
+
 ## Citrix Storefront
 Citrix Storefronts are one of the more common application deployment platforms that you'll see across enterprises today and chances are if your end users are using it in day in and day out they are familiar with what the page will look like and may forget to look for the warning signs of a forgery.
 
